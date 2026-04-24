@@ -136,7 +136,7 @@ local function StartHub()
     end
 
     local FarmBtn = CreateBtn("FARM MASHMELLOW", UDim2.new(0.63, 0, 0, 65))
-    local SellBtn = CreateBtn("RESET PAREDES", UDim2.new(0.63, 0, 0, 130))
+    local btnResetWalls = CreateBtn("RESET PAREDES", UDim2.new(0.63, 0, 0, 130))
     local ToolBtn = CreateBtn("MASHMELLOW TOOL", UDim2.new(0.63, 0, 0, 195))
 
     local farmActive, sellActive = false, false
